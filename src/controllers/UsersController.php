@@ -28,4 +28,14 @@ class UsersController extends Controller
         }
         $this->redirect('/create');
     }
+
+    public function editUser($id)
+    {
+        
+    }
+
+    public function deleteUser($id)
+    {
+
+    }
 }
