@@ -4,10 +4,10 @@
 
 <table border="1" width="50%">
     <tr>
-        <th>Identificador</th>
-        <th>Nome</th>
+        <th>Identifier</th>
+        <th>Name</th>
         <th>E-mail</th>
-        <th>Opções</th>
+        <th>Options</th>
     </tr>
     <?php foreach($users as $user): ?>
         <tr>
@@ -16,7 +16,7 @@
             <td><?=$user['email'];?></td>
             <td>
                 <a href="<?=$base;?>/user/<?=$user['id'];?>/edit">[Edit]</a>
-                <a href="<?=$base;?>/user/<?=$user['id'];?>/delete">[Delete]</a>
+                <a href="<?=$base;?>/user/<?=$user['id'];?>/delete" onclick="return confirm('Are you sure you want to delete?')">[Delete]</a>
             </td>
         </tr>
     <?php endforeach; ?>

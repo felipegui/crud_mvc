@@ -7,6 +7,6 @@
 <body>
 
     <head>
-        <h1>Título do Site</h1>
+        <h1>CRUD B7WEB</h1>
         <hr>
     </head>

@@ -1,6 +1,6 @@
 <footer>
     <hr>
-    Todos os direitos reservados.
+    All rights reserved.
 </footer>
 </body>
 

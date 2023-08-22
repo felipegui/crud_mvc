@@ -1,10 +1,10 @@
 <?php $render('header'); ?>
 
-<h2>Adicionar novo usuário</h2>
+<h2>Add new user</h2>
 
 <form action="<?=$base;?>/create" method="post">
     <label>
-        Nome:<br>
+        Name:<br>
         <input type="text" name="name"/>
     </label><br><br>
 
@@ -13,7 +13,7 @@
         <input type="email" name="email"/>
     </label><br><br>
 
-    <input type="submit" value="Cadastrar">
+    <input type="submit" value="Register">
 </form>
 
 <?php $render('footer'); ?>
